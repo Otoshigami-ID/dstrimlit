@@ -1,10 +1,10 @@
 import streamlit as st
 
-st.title("Title")
+st.title("Ini Title")
 st.text("Text")
 
 # Input nama dari pengguna
-nama = st.text_input('Masukkan nama Anda')
+nama = st.text_input('Masukkan Nama Anda')
 nim = st.text_input('Masukkan NIM Anda')
 inikota = st.selectbox("Pilih Matakuliah Anda:", {'RPL', 'IF', 'DS'})
 umur = st.slider("Masukan Umur anda", 1,100,20)
